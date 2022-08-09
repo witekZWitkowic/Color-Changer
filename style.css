@@ -46,11 +46,14 @@ a:hover {
     font-size: 3rem;
     padding: 5px 15px;
     height: 70px;
-    width: 40%;
+    width: auto;
     background-color: #000;
     color: #FFF;
     margin-bottom: 100px ;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .btn-color-properties {
     border-radius: 15px;
@@ -68,4 +71,42 @@ a:hover {
 .color{
     color: #008b8b;
     margin-left: 10px;
+}
+@media only screen and (max-width: 1365px) {
+    .btn-color-properties {
+        font-size: 1.5rem;
+    }
+    .background-color-name {
+        font-size: 2.2rem;
+        height: 60px;
+        margin-bottom: 70px ;
+    }
+    .simple-or-hex {
+        font-size: 1.7rem;
+    }
+    h4 {
+        font-size: 1.9rem;
+    }
+    a {
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .btn-color-properties {
+        font-size: 1.2rem;
+    }
+    .background-color-name {
+        font-size: 1.5rem;
+        height: 50px;
+        margin-bottom: 50px ;
+    }
+    .simple-or-hex {
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size: 1.6rem;
+    }
+    a {
+        margin: 10px;
+    }
 }
